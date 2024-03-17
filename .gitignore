@@ -1,0 +1,4 @@
+/db.sqlite3
+/static_final/
+/.idea/
+*/__pycache__/

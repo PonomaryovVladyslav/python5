@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+{% endblock %}
+
+{% block content %}
+    <a href="{% url 'index' %}">HOME</a>
+    {{ article.text }}
+{% endblock %}
