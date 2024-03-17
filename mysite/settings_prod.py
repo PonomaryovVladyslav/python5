@@ -2,7 +2,7 @@ import os
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['3.68.184.193']
+ALLOWED_HOSTS = ['a-level-deploy.com']
 
 DATABASES = {
     'default': {
